@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+body {
+  margin: 0;
+  background: url(/assets/img/1.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.titulo {
+  color: #fafafa;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-perfil {
+  position: absolute;
+  margin-left: -10vw;
+}
+
+.foto-perfil img {
+  border-radius: 50%;
+}
+
+.foto-perfil p {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.informacoes {
+  margin-left: 10vw;
+}
+
+.informacoes ul { 
+    list-style-type: none;
+}
+
+.informacoes .fas {
+    font-size: 50px;
+    color: #fafafa;
+}
+
+
