@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background: url(/assets/img/1.jpg);
+  background: url(/assets/img/desk.jpg);
   background-size: 100vw;
   background-repeat: no-repeat;
   font-family: "Ubuntu", sans-serif;
@@ -10,9 +10,9 @@ body {
 
 .titulo {
   color: #fafafa;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 140px;
 }
 
 .container {
@@ -37,16 +37,65 @@ body {
 }
 
 .informacoes {
-  margin-left: 10vw;
-}
-
-.informacoes ul { 
-    list-style-type: none;
+  margin: 2vw 0 0 18vw;
 }
 
 .informacoes .fas {
-    font-size: 50px;
-    color: #fafafa;
+  font-size: 3rem;
+  color: #fafafa;
+  margin: 0 1rem 0 0.2rem;
 }
 
+.informacoes a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.1rem;
+}
 
+.informacoes_dados {
+  border-radius: 5px;
+  width: 14vw;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #151515;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.informacoes_exp {
+  border-radius: 5px;
+  width: 14vw;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #151515;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.informacoes_contato {
+  border-radius: 5px;
+  width: 14vw;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #151515;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.informacoes_dados:hover {
+  background-color: #8f5c0b;
+  transition: 0.5s;
+  letter-spacing: 0.2px;
+}
+
+.informacoes_exp:hover {
+  background-color: #8f5c0b;
+  transition: 0.5s;
+  letter-spacing: 0.2px;
+}
+
+.informacoes_contato:hover {
+  background-color: #8f5c0b;
+  transition: 0.5s;
+  letter-spacing: 0.2px;
+}
