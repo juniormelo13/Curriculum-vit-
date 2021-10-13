@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 
+/*Página Principal*/
+
 body {
   margin: 0;
   background: url(/assets/img/desk.jpg);
@@ -22,7 +24,7 @@ body {
 
 .foto-perfil {
   position: absolute;
-  margin-left: -10vw;
+  margin-left: -11vw;
 }
 
 .foto-perfil img {
@@ -37,7 +39,7 @@ body {
 }
 
 .informacoes {
-  margin: 2vw 0 0 18vw;
+  margin: 2vw 0 0 23vw;
 }
 
 .informacoes .fas {
@@ -98,4 +100,127 @@ body {
   background-color: #8f5c0b;
   transition: 0.5s;
   letter-spacing: 0.2px;
+}
+
+/*Página Dados*/
+
+.titulo2 {
+  color: #fafafa;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sub_titulo {
+  color: #fafafa;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.conteudo {
+  color: #fafafa;
+  font-size: 20px;
+  padding: 2rem;
+  margin: 5vh 15vw 0 15vw;
+  background: rgba(134, 93, 5, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.informacoes_home {
+  border-radius: 5px;
+  width: 10vw;
+  padding: 10px;
+  margin: 5vh 0 0 50vw;
+  background-color: #151515;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.informacoes_home:hover {
+  background-color: #8f5c0b;
+  transition: 0.5s;
+  letter-spacing: 0.2px;
+}
+
+/*Página Experiências*/
+
+.conteudo2 {
+  color: #fafafa;
+  font-size: 20px;
+  padding: 2rem;
+  margin: 5vh 15vw 0 15vw;
+  background: rgba(134, 93, 5, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*Página Contato*/
+
+.conteudo3 {
+  color: #fafafa;
+  font-size: 20px;
+  padding: 2rem;
+  margin: 5vh 15vw 0 15vw;
+  background: rgba(134, 93, 5, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 1rem 0 1rem;
+}
+
+.campo {
+  width: 15vw;
+}
+
+.redes_sociais {
+  margin: -2rem 12vw;
+}
+
+.redes_sociais_lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes_sociais_lista a {
+  text-decoration: none;
+  color: #fafafa;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 10vw;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  transition: 0.3s;
+}
+
+.redes_sociais_lista a:first-child {
+  background-color: #3b5998;
+}
+
+.redes_sociais_lista a:nth-child(2) {
+  background-color: #cd486b;
+}
+
+.redes_sociais_lista a:nth-child(3) {
+  background-color: #0e76a8;
+}
+
+.redes_sociais_lista a:nth-child(4) {
+  background-color: #171515;
+}
+
+.redes_sociais_lista .fab {
+  margin: 0.2rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+.redes_sociais_lista a:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
 }
