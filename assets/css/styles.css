@@ -40,6 +40,8 @@ body {
 
 .informacoes {
   margin: 2vw 0 0 23vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .informacoes .fas {
@@ -52,9 +54,6 @@ body {
   text-decoration: none;
   color: #fafafa;
   font-size: 1.1rem;
-}
-
-.informacoes_dados {
   border-radius: 5px;
   width: 14vw;
   padding: 10px;
@@ -64,39 +63,7 @@ body {
   transition: 0.3s;
 }
 
-.informacoes_exp {
-  border-radius: 5px;
-  width: 14vw;
-  padding: 10px;
-  margin-top: 15px;
-  background-color: #151515;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.informacoes_contato {
-  border-radius: 5px;
-  width: 14vw;
-  padding: 10px;
-  margin-top: 15px;
-  background-color: #151515;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.informacoes_dados:hover {
-  background-color: #8f5c0b;
-  transition: 0.5s;
-  letter-spacing: 0.2px;
-}
-
-.informacoes_exp:hover {
-  background-color: #8f5c0b;
-  transition: 0.5s;
-  letter-spacing: 0.2px;
-}
-
-.informacoes_contato:hover {
+.informacoes a:hover {
   background-color: #8f5c0b;
   transition: 0.5s;
   letter-spacing: 0.2px;
@@ -128,17 +95,25 @@ body {
   text-align: center;
 }
 
-.informacoes_home {
+.informacoes_home .fas {
+  font-size: 2rem;
+  color: #fafafa;
+  margin: 2rem 1rem 0 0.2rem;
+}
+
+.informacoes_home a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.5rem;
   border-radius: 5px;
-  width: 10vw;
-  padding: 10px;
-  margin: 5vh 0 0 50vw;
+  padding: 1rem;
+  margin-left: 72vw;
   background-color: #151515;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.informacoes_home:hover {
+.informacoes_home a:hover {
   background-color: #8f5c0b;
   transition: 0.5s;
   letter-spacing: 0.2px;
@@ -221,6 +196,6 @@ body {
 }
 
 .redes_sociais_lista a:hover {
-    letter-spacing: 1px;
-    transition: 0.5s;
+  letter-spacing: 1px;
+  transition: 0.5s;
 }
