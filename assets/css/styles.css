@@ -5,14 +5,14 @@
 body {
   margin: 0;
   background: url(/assets/img/desk.jpg);
-  background-size: 100vw;
+  background-size: 100%;
   background-repeat: no-repeat;
   font-family: "Ubuntu", sans-serif;
 }
 
 .titulo {
   color: #fafafa;
-  font-size: 50px;
+  font-size: 3.3rem;
   text-align: center;
   margin-top: 140px;
 }
@@ -24,7 +24,7 @@ body {
 
 .foto-perfil {
   position: absolute;
-  margin-left: -24vw;
+  margin-left: -12vw;
 }
 
 .foto-perfil img {
@@ -34,7 +34,7 @@ body {
 .foto-perfil p {
   position: relative;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.4rem;
   color: #fafafa;
 }
 
@@ -73,21 +73,21 @@ body {
 
 .titulo2 {
   color: #fafafa;
-  font-size: 50px;
+  font-size: 3.3rem;
   text-align: center;
   margin-top: 10px;
 }
 
 .sub_titulo {
   color: #fafafa;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: center;
   margin-top: 0px;
 }
 
 .conteudo {
   color: #fafafa;
-  font-size: 20px;
+  font-size: 1.3rem;
   padding: 2rem;
   margin: 5vh 15vw 0 15vw;
   background: rgba(134, 93, 5, 0.3);
@@ -123,7 +123,7 @@ body {
 
 .conteudo2 {
   color: #fafafa;
-  font-size: 20px;
+  font-size: 1.3rem;
   padding: 2rem;
   margin: 5vh 15vw 0 15vw;
   background: rgba(134, 93, 5, 0.3);
@@ -135,7 +135,7 @@ body {
 
 .conteudo3 {
   color: #fafafa;
-  font-size: 20px;
+  font-size: 1.3rem;
   padding: 2rem;
   margin: 5vh 15vw 0 15vw;
   background: rgba(134, 93, 5, 0.3);
@@ -199,3 +199,4 @@ body {
   letter-spacing: 1px;
   transition: 0.5s;
 }
+
