@@ -24,7 +24,7 @@ body {
 
 .foto-perfil {
   position: absolute;
-  margin-left: -12vw;
+  margin-left: -23vw;
 }
 
 .foto-perfil img {
@@ -107,7 +107,7 @@ body {
   font-size: 1.5rem;
   border-radius: 5px;
   padding: 1rem;
-  margin-left: 72vw;
+  margin-left: 72.7vw;
   background-color: #151515;
   cursor: pointer;
   transition: 0.3s;
